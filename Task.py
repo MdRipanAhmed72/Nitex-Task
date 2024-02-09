@@ -21,7 +21,7 @@ submit_button = driver.find_element(By.ID, "userid")
 submit_button.click()
 
 # Verify that the event appears in the user's event list
-created_event = driver.find_element_by_xpath('//div[@class="event-item"][1]')
+created_event = driver.find_element(By.XPATH, ".use-")
 assert 'Sample Event' in created_event.text
 assert '2024-02-12' in created_event.text
 assert 'ripan899258.com' in created_event.text
