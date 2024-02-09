@@ -12,7 +12,7 @@ event_name_input = driver.find_element(By.NAME, "username")
 event_date_input = driver.find_element(By.ID, "userid")
 participant_emails_input = driver.find_element(By.NAME, "username")
 
-event_name_input.send_keys('Sample Event')
+event_name_input.send_keys('Test Event')
 event_date_input.send_keys('2024-02-14')  # Replace with the desired date
 participant_emails_input.send_keys('ripan899258.com, ripan899259.com')
 
